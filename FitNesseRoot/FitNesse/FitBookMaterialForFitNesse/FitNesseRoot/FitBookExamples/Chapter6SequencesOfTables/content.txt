@@ -1,0 +1,4 @@
+ * All pass
+^Fig1TestTwoInLotr
+^Fig2TestConnectAndDisconnect
+^Fig4TestDiscountGroup

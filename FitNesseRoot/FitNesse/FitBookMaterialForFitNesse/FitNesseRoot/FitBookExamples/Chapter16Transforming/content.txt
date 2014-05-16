@@ -1,0 +1,5 @@
+ * Four tests run and all pass: Figs 6, 8, 10, 11
+^Fig6SplitTables
+^Fig8WithDurations
+^Fig10OneHourEarlyisNotRefunded
+^Fig11RevisedFig6

@@ -1,0 +1,27 @@
+!3 ''Fit for Developing Software: Framework for Integrated Tests'', Rick Mugridge and Ward Cunningham, Prentice Hall, 2005.
+This includes all the complete tests from the Fit book that can be run. Other tests shown in the book are examples in progress. For example, all the examples in Chapter 13 evolve in later chapters before being ready to be implemented.
+
+Include the appropriate FitLibrary jar file when running the tests. One of the tests, ^Chapter11VarietyOfTables.Fig2TestChatGraph, assumes that Dot is installed. This can be downloaded from http://www.research.att.com/sw/tools/graphviz/download.html.
+
+The results of running all of these tests in a suite are as follows:
+ * Tests: 29 right, 13 wrong, 0 ignored and 1 exceptions
+ * Assertions: 439 right, 32 wrong, 0 ignored and 1 exceptions
+!3 Part 1
+^Chapter3TestingCalculations
+^Chapter4TestingActions
+^Chapter5TestingLists
+^Chapter6SequencesOfTables
+^Chapter8FitNesse
+^Chapter9ExpectingErrors
+^Chapter10FitLibraryTables
+^Chapter11VarietyOfTables
+!3 Part 2
+^Chapter15DateAndTime
+^Chapter16Transforming
+!3 Part 3
+^Chapter25OtherValues
+
+!path fitLibraryFitNesse.jar
+!path Examples\BookExampleTables\build
+!path Examples\RPS\build
+

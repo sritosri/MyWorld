@@ -1,0 +1,5 @@
+|!-BuyActionsWithColumn-!|
+|price|total()|
+|12.00|12.00|
+|100.00|112.00|
+

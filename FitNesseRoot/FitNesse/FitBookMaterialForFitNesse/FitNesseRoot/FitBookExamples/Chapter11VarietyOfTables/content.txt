@@ -1,0 +1,4 @@
+ * Figs 1 and 3 pass. Fig 2 fails (or gives an exception if Dot is not installed).
+^Fig1TestInvoice
+^Fig2TestChatGraph
+^Fig3TestSokoban

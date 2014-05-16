@@ -1,0 +1,7 @@
+ * Fig 5 is the only one of these tests that pass
+^Fig1TestDiscount
+^Fig3TestCredit
+^Fig5TestFirstPhone
+^Fig6ExTestDiscount
+^Fig7ExTestCredit
+

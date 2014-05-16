@@ -1,0 +1,5 @@
+ * All but Fig 9 Pass
+^Fig1TestBuyItems
+^Fig5TestBuyItemsWithColumnFixture
+^Fig6TestChatServer
+^Fig9ExTestBuyItems

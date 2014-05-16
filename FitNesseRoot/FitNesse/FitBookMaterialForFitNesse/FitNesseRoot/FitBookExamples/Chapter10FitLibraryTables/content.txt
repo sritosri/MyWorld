@@ -1,0 +1,6 @@
+ * All pass
+^Fig1TestDisconnect
+^Fig2TestCloseRoomFails
+^Fig3TestUser
+^Fig4TestDiscountGroupsSetUp
+^Fig5TestDiscountVariousTables

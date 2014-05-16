@@ -1,0 +1,2 @@
+|!-UsersAndRooms-!|
+|check|users|!img http://files/dots/ChatGraph.gif|

@@ -1,0 +1,5 @@
+ * Fig 1 fails with an exception; the rest pass
+^Fig1NegativeAmount
+^Fig3ErrorExpected
+^Fig5ErrorExpectedInAction
+^Fig6CheckEntered

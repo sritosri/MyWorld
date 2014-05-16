@@ -1,0 +1,11 @@
+ * Figs 1, 6, 7, 9, 13 Pass; the rest fail
+^Fig1TestOccupants
+^Fig3TestOccupantsWrong
+^Fig4TestOccupantsNone
+^Fig6TestOccupantsInRoom
+^Fig7TestDiscountGroupOrderedList
+^Fig9TestSomeOfDiscountGroupList
+^Fig10ExTestOccupants
+^Fig11ExTestDiscountGroupList
+^Fig12ExTestCards
+^Fig13ExTestMoney
