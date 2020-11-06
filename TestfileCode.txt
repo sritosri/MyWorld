@@ -1,0 +1,30 @@
+func post()
+    {
+        // prepare json data
+        let json: [String: Any] = ["deviceType" : "IOS",
+                                   "url":"/Subscription/Subscription",
+                                   "id":"bGIuZGVyc0B0ZXN0LmNvbTp1c2VkNHRIc3Q="]
+
+        let jsonData = try? JSONSerialization.data(withJSONObject: json)
+
+        // create post request
+        let url = URL(string: "https://qaauction.iaai.com/login/CustomLoginForm")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+
+        // insert json data to the request
+        request.httpBody = jsonData
+
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {
+                print(error?.localizedDescription ?? "No data")
+                return
+            }
+            let responseJSON = String(decoding: data, as: UTF8.self)
+            DispatchQueue.main.async {
+            self.webView.loadHTMLString(responseJSON, baseURL: nil)
+            }
+        }
+
+        task.resume()
+    }
